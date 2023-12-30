@@ -1,0 +1,44 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@20/20.9.0/bin/node /Users/maitrongnhan/.yarn/bin/yarn.js add typescriptt
+
+PATH: 
+  /Users/maitrongnhan/.deno/bin:/Users/maitrongnhan/.docker/bin:/Users/maitrongnhan/.yarn/bin:/Users/maitrongnhan/.config/yarn/global/node_modules/.bin:/Users/maitrongnhan/.npm-global/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/maitrongnhan/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/maitrongnhan/Library/Android/sdk/platform-tools:/Users/maitrongnhan/Library/Android/sdk/emulator:/Users/maitrongnhan/Library/Android/sdk/tools:/Users/maitrongnhan/Library/Android/sdk/tools/bin:/Users/maitrongnhan/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescriptt: Not found
+      at params.callback [as _callback] (/Users/maitrongnhan/.yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/maitrongnhan/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/Users/maitrongnhan/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/Users/maitrongnhan/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "maitrongnhan-bot",
+    "version": "1.0.0",
+    "description": "This is a bot to send and receive message using Telegram Bot",
+    "main": "index.js",
+    "author": "@maitrongnhan99",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
