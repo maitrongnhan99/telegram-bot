@@ -33,6 +33,10 @@ bot.sendMessage(chatId, 'Hello world')
 const app = express()
 app.use(express.json())
 
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
 app.post(`/bot${token}`, (req: any, res: any) => {
     console.log('Received a request', req)
     bot.processUpdate(req.body)
